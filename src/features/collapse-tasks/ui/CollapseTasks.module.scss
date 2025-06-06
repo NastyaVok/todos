@@ -1,0 +1,16 @@
+.arrow {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background-image: url("../../../shared/assets/icons/arrow.svg");
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.open {
+  transform: rotate(180deg);
+}

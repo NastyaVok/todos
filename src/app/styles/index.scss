@@ -1,0 +1,13 @@
+@use "normalize.css" as *;
+@use "./_variables.scss" as *;
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand;
+}
+
+#root {
+  background-color: $main-background;
+  width: 100%;
+  min-height: 100vh;
+}

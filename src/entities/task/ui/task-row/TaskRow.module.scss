@@ -1,0 +1,13 @@
+.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: start;
+  padding: 4px;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}

@@ -1,0 +1,16 @@
+@use "../../../app/styles/_variables.scss" as *;
+
+.ant-btn {
+  background-color: transparent !important;
+  transition: opacity 0.3s, border-color 0.3s;
+
+  &:hover,
+  &:focus {
+    outline: none !important;
+    opacity: 0.8;
+  }
+
+  &:hover {
+    border-color: $pink-color !important;
+  }
+}
