@@ -12,13 +12,13 @@
 
 ## Установка и запуск
 
-````shell
-   npm i
-   ```
-   ```shell
-   npm run start
-   ```
-````
+```shell
+npm i
+```
+
+```shell
+npm run start
+```
 
 ## Технологический стек
 
